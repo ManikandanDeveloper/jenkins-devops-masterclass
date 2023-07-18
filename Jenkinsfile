@@ -1,5 +1,5 @@
 // Declarative pipeline
-pipelines {
+pipeline {
 	agent any
 	stages {
 		stage ('Build') {
