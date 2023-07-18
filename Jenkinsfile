@@ -17,7 +17,8 @@ pipeline {
 				echo "Integration Test Step"				
 			}
 		}
-	} post {
+	}
+	post {
 		always {
 			echo "Runs always"
 		}
